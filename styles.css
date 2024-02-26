@@ -1,0 +1,87 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for header */
+header {
+    background-color: #ff9933; 
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Basic styles for sections */
+.section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #3f51b5; /* Indigo */
+}
+
+/* Styles for projects */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    margin-bottom: 10px;
+    color: #3f51b5; /* Red */
+}
+
+/* Basic styles for footer */
+footer {
+    background-color: #3f51b5; /* Indigo */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+margin-top: 200px;
+}
+
+body {
+    background-color: #ccfff5; 
+     color:  #993300
+
+}
+
+.cood{
+
+background-image:url(nat.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
